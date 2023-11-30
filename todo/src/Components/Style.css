@@ -1,0 +1,161 @@
+Add this CSS to your styles.css or in your component file
+
+/* Todo component styles */
+.main-container {
+  margin: 10px;
+}
+
+.tasks-container {
+  margin: 10px;
+  margin-left: 40px;
+  width: 600px;
+  margin-right: -80px;
+}
+
+.tasks-container input {
+  padding: 20px 10px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 30vw;
+  /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.green-button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4895ef;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.green-button:hover {
+  background-color: #3181db;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  /* margin: 5p 0; */
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  width: 30vw;
+}
+
+/* Button component styles */
+div {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+img {
+  width: 5%;
+  margin: 5px;
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+}
+
+.subtasks-container {
+  background-color: #f0f0f0;
+  margin: 50px;
+  margin-left: 100px;
+  width: 680px;
+  border-radius: 10px;
+  height: 400px;
+  padding: 0px;
+  padding: 10px;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol li {
+  /* margin: 5p 0; */
+  background-color: #f9f9f9;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 40vw;
+  height: 30px;
+  /* margin: 10px 0px; */
+}
+
+.task-input {
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 16vw;
+  /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.task-btn {
+  display: inline;
+}
+
+.subtask-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.date {
+  display: inline;
+  font-size: 12px;
+  position: absolute;
+  right: 185px;
+  margin-top: 15px;
+}
+
+.task-status {
+  font-size: 12px;
+  position: absolute;
+  right: 185px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin: -3px;
+  color: #4895ef;
+}
+
+/* .subtask-right-container {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px;
+  row-gap: -10px;
+  font-size: 12px;
+  position: absolute;
+  right: 150px;
+}
+.date-container {
+  display: inline;
+} */
+.date-input {
+  width: 18%;
+  padding: 6px 4px;
+  margin: 0px 2px;
+}
+
+.subtask-btn-styling {
+  display: flex;
+  flex-direction: row;
+}
